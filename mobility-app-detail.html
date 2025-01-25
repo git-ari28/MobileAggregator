@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobility App Detail</title>
+  <link rel="stylesheet" href="styles/main2.css">
+</head>
+<body>
+ 
+  <header>
+    <h1> About the ride!</h1>
+  </header>
+
+  
+  <section id="app-detail-section">
+    <h2 id="app-name"></h2>
+    <div id="app-info">
+      <p id="company-overview"></p>
+      <div id="download-links">
+       
+        <a href="#" id="android-link">
+         <img src="assets/images/android_logo.jpeg" alt="Download for Android" title="Download for Android"><p>Download for Android</p>
+        </a>
+        <a href="#" id="ios-link">
+          <img src="assets/images/ios-icon.jpg" alt="Download for iOS" title="Download for iOS"><p>Download for iOS</p>
+        </a>
+      </div>
+      <div id="booking-link">
+       
+        <a href="#" id="booking-button">
+          <img src="assets/images/bookaride.jpeg" alt="Book a Ride" title="Book a Ride"><p>Book the ride now </p>
+        </a>
+      </div>
+    </div>
+
+    
+    <section id="ratings-reviews">
+      <h3>Ratings & Reviews</h3>
+      <div id="reviews-list">
+        
+        <p><strong>John:</strong> 5 stars! Great service.</p>
+        <p><strong>Jane:</strong> 4 stars. Convenient, but could be faster.</p>
+      </div>
+      <form id="review-form">
+        <label for="review">Add a Review:</label>
+        <textarea id="review" placeholder="Write your review here"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="success-message" style="display:none; color: green;">Review Submitted!</div>
+    </section>
+  </section>
+
+  
+  <footer>
+    <p>© 2025 Mobility Aggregator Platform</p>
+  </footer>
+
+  <script src="scripts/app-detail.js"></script>
+</body>
+</html>
+

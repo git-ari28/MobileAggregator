@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobility Aggregator Platform</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  
+
+    
+    <header>
+        <h1>Welcome to Mobility Aggregator Platform</h1>
+        <p>Find the best mobility apps across India</p>
+    </header>
+
+   
+    <section id="city-section">
+        <h2>Select Your City</h2>
+        <select id="city">
+            <option value="delhi">Delhi</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="bangalore">Bangalore</option>
+            <option value="chennai">Chennai</option>
+            <option value="chennai">Other</option>
+        </select>
+    </section>
+
+    
+    <section id="antique-museum">
+        <h2>Antique Mobility Museum</h2>
+        <p id="museum-description">Explore antique cars and bikes from the early 1900s!</p>
+        <div class="museum-content">
+            <img id="antique-image" src="assets/images/antique-car.jpg" alt="Antique Car">
+           
+            <div id="museum-facts" class="museum-facts"></div>
+
+        </div>
+    </section>
+
+    
+    <section id="apps-section">
+        <h2>Popular Mobility Apps</h2>
+        <div id="app-container">
+            
+             
+            <div class="category">
+                <h3 class="category-title">Ride Sharing</h3>
+                <div class="apps-row" style="display: flex; flex-direction: row; gap: 16px;">
+                    <div class="app-card">
+                        <a href="mobility-app-detail.html?app=meru" class="app-link">
+                            <img src="assets/images/meru-logo.jpg" alt="Meru">
+                            <p>Meru</p>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+    
+            
+             
+            <div class="category">
+                <h3 class="category-title">Bike Rentals</h3>
+                <div class="apps-row" style="display: flex; flex-direction: row; gap: 16px;">
+                    <div class="app-card">
+                        <a href="mobility-app-detail.html?app=rapido" class="app-link">
+                            <img src="assets/images/rapido-logo.png" alt="Rapido">
+                            <p>Rapido</p>
+                        </a>
+                    </div>
+                    <div class="app-card">
+                        <a href="mobility-app-detail.html?app=bounce" class="app-link">
+                            <img src="assets/images/Bounce_logo.webp" alt="Bounce">
+                            <p>Bounce</p>
+                        </a>
+                    </div>
+                
+            </div>
+            </div>
+    
+            
+            <div class="category">
+                <h3 class="category-title">Scooter Rentals</h3>
+                <div class="apps-row" style="display: flex; flex-direction: row; gap: 16px;">
+                    <div class="app-card">
+                        <a href="mobility-app-detail.html?app=vogo" class="app-link">
+                            <img src="assets/images/vogo-logo.png" alt="Vogo">
+                            <p>Vogo</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+           
+            <div class="category">
+                <h3 class="category-title">Taxi Services</h3>
+                <div class="apps-row" style="display: flex; flex-direction: row; gap: 16px;">
+                    <div class="app-card">
+                        <a href="mobility-app-detail.html?app=jugnoo" class="app-link">
+                            <img src="assets/images/jugnoo-logo.jpg" alt="Jugnoo">
+                            <p>Jugnoo</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+           
+            <div class="category">
+                <h3 class="category-title">Logistics</h3>
+                <div class="apps-row" style="display: flex; flex-direction: row; gap: 16px;">
+                    <div class="app-card">
+                        <a href="mobility-app-detail.html?app=porter" class="app-link">
+                            <img src="assets/images/porter-logo.png" alt="Porter">
+                            <p>Porter</p>
+                        </a>
+                    </div>
+                    <div class="app-card">
+                        <a href="mobility-app-detail.html?app=blowhorn" class="app-link">
+                            <img src="assets/images/blowhorn_logo.png" alt="Blowhorn">
+                            <p>Blowhorn</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p id="no-data" style="display:none;">No data available for this city. We will be adding it soon!</p>
+    </section>
+    
+           
+
+   
+    <section id="cta-section">
+        <h3>Stay Updated!</h3>
+        <form id="signup-form">
+            <label for="email">Sign up to receive updates on new mobility options:</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+    
+
+   
+    <footer>
+        <p>© 2025 Mobility Aggregator Platform</p>
+    </footer>
+
+    
+    <script src="scripts/main.js"></script>
+</body>
+</html>

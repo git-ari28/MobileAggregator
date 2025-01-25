@@ -1,0 +1,263 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: goldenrod;
+}
+
+button {
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Header Section */
+header {
+  background-color: palegoldenrod;
+  color: peru;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+
+#city-section {
+  text-align: center;
+  padding: 20px 0;
+}
+
+#city-section h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+#city {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+
+#antique-museum {
+  text-align: center;
+  background-color: #fff;
+  padding: 30px 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#antique-museum h2 {
+  font-size: 2.5rem;
+  color: #0078d4;
+}
+
+.museum-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+#antique-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+#museum-description {
+  font-size: 1rem;
+  color: #555;
+  max-width: 500px;
+  margin: 0;
+  text-align: center;
+}
+
+
+#apps-section {
+  background-color: #fff;
+  padding: 40px 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#apps-section h2 {
+  font-size: 2.5rem;
+  color: #0078d4;
+  margin-bottom: 20px;
+}
+
+.apps-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.app-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  flex: 1;
+  min-width: 150px;
+  max-width: 200px;
+}
+
+.app-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 20%;
+  transition: transform 0.3s ease;
+}
+
+.app-card img:hover {
+  transform: scale(1.1);
+}
+
+.app-card p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+#no-data {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 20px;
+}
+
+/* CTA Section */
+#cta-section {
+  background-color: #f7f7f7;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#cta-section h3 {
+  font-size: 2rem;
+  color: #0078d4;
+  margin-bottom: 20px;
+}
+
+#signup-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#signup-form label {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+#signup-form input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+
+#signup-form button {
+  background-color: #0078d4;
+  color: white;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#signup-form button:hover {
+  background-color: #005ba1;
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+
+@media (max-width: 768px) {
+  .museum-content,
+  .apps-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .app-card {
+    width: calc(50% - 10px);
+  }
+
+  #cta-section {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  #city-section h2 {
+    font-size: 1.5rem;
+  }
+
+  #signup-form input,
+  #signup-form button {
+    font-size: 0.9rem;
+  }
+
+  .app-card {
+    width: 100%;
+  }
+}
+#category-title{
+  font-size: 30px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}

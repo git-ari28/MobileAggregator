@@ -1,0 +1,16 @@
+{
+    "Delhi": {
+      "cabs": ["Uber", "Ola", "Meru"],
+      "bikes": ["Rapido", "Bounce", "Vogo"],
+      "autos": ["Ola Auto", "Jugnoo"],
+      "porter-services": ["Porter", "Blowhorn"]
+    },
+    "Bangalore": {
+      "cabs": ["Uber", "Ola"],
+      "bikes": ["Rapido", "Bounce"],
+      "autos": ["Jugnoo"],
+      "porter-services": ["Porter"]
+    },
+    "Mumbai": {}
+  }
+  
